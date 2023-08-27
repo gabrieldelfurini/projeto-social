@@ -29,3 +29,32 @@ section#telefone{
     transform: translate(-50%, -50%);
     background:  url('../imagens/celular580.png') no-repeat;
 }
+
+iframe#tela{
+    position: relative;
+    top: 19px;
+    left: 21px;
+    width: 252px;
+    height: 535px;
+    border-radius: 30px 30px;
+}
+
+section#redes-sociais{
+    text-align: right;
+    padding: 10px
+;}
+
+section#redes-sociais img{
+    width: 45px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+    box-sizing: border-box;
+    margin: 2px;
+}
+
+section#redes-sociais img:hover{
+    border:  2px solid rgba(255, 255, 255, 0.452);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: transform .1s ;
+}
